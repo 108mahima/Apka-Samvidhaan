@@ -45,7 +45,7 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    coursesName: "Introducing the Indian Constitution",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -53,8 +53,7 @@ export const coursesCard = [
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    returnpath: "./components/module/index.js",
   },
   {
     id: 2,
@@ -168,7 +167,7 @@ export const coursesCard = [
     priceAll: "$20 All Course",
     pricePer: "$3 per month",
   },
-] 
+]
 export const online = [
   {
     cover: "./images/courses/online/o1.png",

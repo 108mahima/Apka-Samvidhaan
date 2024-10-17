@@ -1,6 +1,8 @@
 import React from "react"
 import "./courses.css"
 import { coursesCard } from "../../dummydata"
+import { Link } from 'react-router-dom';
+
 
 const CoursesCard = () => {
   return (
@@ -9,6 +11,7 @@ const CoursesCard = () => {
         <div className='container grid2'>
           {coursesCard.map((val) => (
             <div className='items'>
+            <Link to={val.returnpath} style={{ textDecoration: 'none' }}>
               <div className='content flex'>
                 <div className='left'>
                   <div className='img'>
@@ -29,6 +32,7 @@ const CoursesCard = () => {
               </div>
               <div className='price'>
               </div>
+              </Link>
             </div>
           ))}
         </div>
