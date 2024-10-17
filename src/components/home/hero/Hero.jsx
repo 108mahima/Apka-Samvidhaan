@@ -12,10 +12,10 @@ const Hero = () => {
             <p>Learn the Indian Constitution through interactive courses and resources.</p>
             <div className='button'>
               <button className='primary-btn'>
-                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
+                 ABOUT   <i className='fa fa-long-arrow-alt-right'></i>
               </button>
               <button>
-                VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
+                ALL COURSES <i className='fa fa-long-arrow-alt-right'></i>
               </button>
             </div>
           </div>

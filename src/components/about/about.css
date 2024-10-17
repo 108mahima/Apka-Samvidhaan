@@ -53,12 +53,13 @@
   background-position: center;
   height: 30vh;
   color: #fff;
+  margin-top: 20px;
 }
 .awrapper .box {
-  padding: 70px 0;
+  padding: 40px 0;
 }
 .awrapper img {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .awrapper h1 {
   font-size: 50px;
