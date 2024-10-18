@@ -8,7 +8,7 @@ const HAbout = () => {
   return (
     <>
       <section className='homeAbout'>
-        <OnlineCourses />
+        
       </section>
     </>
   )

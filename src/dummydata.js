@@ -45,7 +45,7 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing the Indian Constitution",
+    coursesName: " Introduction to the Constitution",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -53,12 +53,12 @@ export const coursesCard = [
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    returnpath: "./components/module/index.js",
+    returnpath: "./components/module/Module",
   },
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "Fundamental Rights",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -72,7 +72,7 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "Fundamental Duties",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -86,7 +86,7 @@ export const coursesCard = [
   {
     id: 4,
     cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    coursesName: "Directive Principles of State Policy (DPSP)",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -100,7 +100,7 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    coursesName: "The Union and Its Territories",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -114,7 +114,7 @@ export const coursesCard = [
   {
     id: 6,
     cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
+    coursesName: "Parliament of India",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -128,7 +128,7 @@ export const coursesCard = [
   {
     id: 7,
     cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
+    coursesName: "The President and Vice-President",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -142,7 +142,7 @@ export const coursesCard = [
   {
     id: 8,
     cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
+    coursesName: " The Judiciary",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -156,7 +156,7 @@ export const coursesCard = [
   {
     id: 9,
     cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    coursesName: "The Constitutional Amendments",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -244,44 +244,19 @@ export const online = [
 ]
 export const team = [
   {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/meenakshi.jpeg",
+    name: "Meenakshi Srivastava",
+    work: "TEAM LEADER OF ACE CODERS",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/mahima.jpeg",
+    name: "Mahima Yadav",
+    work: "TEAM MEMBER OF ACE CODERS",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/nitesh2.jpeg",
+    name: "Nitesh Srivastava",
+    work: "TEAM MEMBER OF ACE CODERS",
   },
 ]
 export const price = [
