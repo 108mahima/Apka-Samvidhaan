@@ -18,6 +18,9 @@
     opacity: 0;
     transition: 0.5s;
   }
+  .flex{
+    display:flex;
+  }
   .overlay i {
     background-color: #000;
     color: #fff;

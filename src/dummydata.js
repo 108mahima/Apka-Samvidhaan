@@ -53,7 +53,7 @@ export const coursesCard = [
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    returnpath: "./components/module/Module",
+    returnpath: "/module",
   },
   {
     id: 2,

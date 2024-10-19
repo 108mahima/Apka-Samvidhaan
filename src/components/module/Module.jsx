@@ -1,19 +1,24 @@
 import React from "react"
 import Back from "../common/back/Back"
 import TeamCard from "../team/TeamCard"
-import "../team/team.css"
 import Awrapper from "../about/Awrapper"
 import "../about/about.css"
+import Sidebar from "./Sidebar"
+import Quiz from "./quiz"
 
 const Module = () => {
   return (
     <>
       <Back title='Team' />
-      <section className='team padding'>
-        <div className='container grid'>
-          <TeamCard />
+      
+        <div class="flex">
+      <Sidebar/>
+        <div className='container'>
+        <>
+        <Quiz/>
+        </>
         </div>
-      </section>
+        </div>
       <Awrapper />
     </>
   )
